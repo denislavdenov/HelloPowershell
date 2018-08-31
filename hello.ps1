@@ -1,2 +1,2 @@
 #!/usn/bin/env pwsh
-Write-Host "Hello"
+Write-Host "hello"
