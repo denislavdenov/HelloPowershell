@@ -1,11 +1,11 @@
 language: python
 matrix:
   include:
+     - os: linux
       before_install:
         - brew update
         - brew tap caskroom/cask
         - brew cask install powershell
-    - os: linux
       dist: trusty
       sudo: required
       addons:
